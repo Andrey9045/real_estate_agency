@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-
+ 
 
 class Flat(models.Model):
     owner = models.CharField('ФИО владельца', max_length=200)
